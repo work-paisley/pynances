@@ -1,0 +1,19 @@
+
+<style>
+
+  * {
+    font-family: sans-serif;
+    background: lightblue;
+  }
+
+  .pynances-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 1.2em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+  }
+
+</style>
+
+
