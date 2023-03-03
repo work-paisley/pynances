@@ -1,19 +1,45 @@
 
-<style>
-
-  * {
+* {
     font-family: sans-serif;
-    background: lightblue;
-  }
+}
 
-  .pynances-table {
+.jedi-table {
     border-collapse: collapse;
-    margin: 25px auto;
-    font-size: 1.2em;
+    margin: 10px 10px;
+    font-size: 1.0em;
+    min-width: 500px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-  }
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
 
-</style>
+.jedi-table thead tr {
+    background-color: #264793;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jedi-table th,
+.jedi-table td {
+    padding: 12px 15px;
+}
+
+.jedi-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jedi-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.jedi-table tbody tr:last-of-type {
+    border-bottom: 2px solid #264793;
+}
+
+.jedi-table tbody tr.active-row {
+    font-weight: bold;
+    color: #264793;
+}
 
 

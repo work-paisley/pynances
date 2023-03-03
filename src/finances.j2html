@@ -8,10 +8,12 @@
   <body>
     <h1>Brian and Emily's Finances</h2>
 
-    <table class="pynances-table">
+    <h2>All Assets</h2>
+    <table class="jedi-table">
       <thead>
         <tr>
-          <th>Asset</th>
+          <th>Bank</th>
+          <th>Type</th>
           <th>Owner</th>
           <th>Amount</th>
         </tr>
@@ -19,9 +21,10 @@
       <tbody>
 {%  for asset in data %}
         <tr>
-          <td>{{ asset.name }}</td>
+          <td>{{ asset.bank }}</td>
+          <td>{{ asset.type }}</td>
           <td>{{ asset.owner }}</td>
-          <td>{{ asset.amount }}</td>
+          <td>&pound{{ asset.amount }}</td>
         </tr>
 {%- endfor %}
       </tbody>
